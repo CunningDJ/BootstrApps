@@ -1,3 +1,4 @@
+(() => {
 /*
   Recreation.gov Campsite Availability
   Fetches availabilty for a given campground and months, aggregates it and displays all availability dates in
@@ -40,6 +41,14 @@ const DEFAULT_TITLE_BOX_STYLE = `${DEFAULT_HEADER_BOX_STYLE_MIXIN} padding: 6px;
 const DEFAULT_H2_BOX_STYLE = `${DEFAULT_HEADER_BOX_STYLE_MIXIN} padding: 3px; margin: 10px 0px;`;
 
 let DEFAULT_CAMPGROUND = 232487;
+
+
+// MAIN
+main();
+
+function main() {
+    setUpUI(DEFAULT_CAMPGROUND);
+}
 
 function setTitle(campgroundID) {
     if (campgroundID) {
@@ -423,5 +432,4 @@ function createUserInputSection(defaultCampground, selectionCallback) {
     return userInputSection;
 }
 
-// MAIN
-setUpUI(DEFAULT_CAMPGROUND);
+})();
