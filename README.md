@@ -1,6 +1,8 @@
 # BootstrApps - Bootstrapping Applications
 
-Here is my collection of scripts that can be copy-pasted into the chrome console, either in any domain ([/any]()), or in specific domains.
+Here is my collection of scripts that can be copy-pasted into the chrome console, either in any domain ([/any]()), or in specific domains to use website-specific APIs (overcoming CORS objections).
+
+I made this both to practice building frontends from scratch in pure, vanilla JS, and also to hopefully build some useful tools that might help people directly as apps, and as vanilla JS code examples for how to achieve certain objectives.  Enjoy!
 
 ## Directory Structure / Domains
 The domain-specific apps can be used by the directory they're in, named with the reverse-order DNS directory naming system (`recreation.gov` -> [`gov/recreation/`]()).
